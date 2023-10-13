@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+    <header>
+<h1>Contact</h1>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="mijncv.html">Mijn CV</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</header>
+<head>
+    <body>
+        <form id="contactform" action=”https://formspree.io/f/xepbuzwf” method="post">
+            <label for="Voornaam:">Voornaam</label>
+            <input type="text" id="Voornaam" name="Voornaam" placeholder="Uw naam">
+            <br>
+            <br> 
+            <label for="Achternaam:">Achternaam</label>
+             <input type="text" id="achternaam" name="Achternaam" placeholder="Uw naam">
+            <br>
+            <br>
+            <label for="Uw email:">Uw email</label>
+            <input type="email" id="email" name="_replyto" placeholder="Uw email">
+            <br>
+            <br>
+            <label for="Uw bericht">Uw bericht</label>
+            <input type="hidden" id="Uw bericht" name="_subject" value="Website contact"/>
+            <textarea name="message" placeholder="Uw bericht">
+            </textarea>
+            <br>
+            <br>
+            <label for="Verzend"></label>
+            <input type="text" id="Verzend" name="_gotcha" style="display:none"/>
+            <input type="submit" value="Verzend">
+            <br>
+            </form>
+<footer>
+<p>© Mijn website 2023 | All Rights Reserved</p>
+</footer>
+</body>
+</head>
+</html>
